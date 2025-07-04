@@ -4,7 +4,7 @@ import { createBrowserRouter } from "react-router";
 export default createBrowserRouter([
   {
     path: "/",
-    Component: lazy(() => import("./layout/Base.tsx")),
+    Component: lazy(() => import("./layout/Main")),
     // errorElement: lazy(() => import("./pages/ErrorPage.tsx")),
     children: [
       {
